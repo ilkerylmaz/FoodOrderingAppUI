@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="startclor">#14181B</color>
+    <color name="finishcolor">#55595D</color>
+    <color name="green">#8E99A4</color>
+    <color name="blackimsi">#181C14</color>
+    <color name="grayimsi">#3C3D37</color>
+    <color name="kremsi">#D8DDDC</color>
+</resources>

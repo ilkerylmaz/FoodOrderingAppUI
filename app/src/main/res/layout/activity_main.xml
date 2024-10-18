@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundcolor"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/muklogo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pirata_one"
+            android:text="Ana Yemekler"
+            android:textAlignment="center"
+            android:textColor="@color/kremsi"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:id="@+id/anaYemek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/main_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/green"
+                android:fontFamily="@font/odibee_sans"
+                android:text="Çoban Kavurma"
+                android:textColor="@color/green"
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/main_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/green"
+                android:fontFamily="@font/odibee_sans"
+                android:text="Steak Burger"
+                android:textSize="30sp"
+                android:textColor="@color/green" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <CheckBox
+                android:id="@+id/main_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/green"
+                android:text="Izgara Köfte"
+                android:fontFamily="@font/odibee_sans"
+                android:textSize="30sp"
+                android:textColor="@color/green" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pirata_one"
+            android:layout_marginTop="5dp"
+            android:text="Aperatifler"
+            android:textAlignment="center"
+            android:textColor="@color/kremsi"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/aperatifler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/green"
+                    android:text="Kruvasan"
+                    android:fontFamily="@font/odibee_sans"
+                    android:textSize="30sp"
+                    android:textColor="@color/green" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/green"
+                    android:text="Tostlar"
+                    android:fontFamily="@font/odibee_sans"
+                    android:textSize="30sp"
+                    android:textColor="@color/green" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/green"
+                    android:text="Sezar Salata"
+                    android:fontFamily="@font/odibee_sans"
+                    android:textSize="30sp"
+                    android:textColor="@color/green" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pirata_one"
+            android:layout_marginTop="5dp"
+            android:text="İçecekler"
+            android:textAlignment="center"
+            android:textColor="@color/kremsi"
+            android:textSize="30sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/icecekler"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/green"
+                    android:text="Black Widow Cocktail"
+                    android:fontFamily="@font/odibee_sans"
+                    android:textSize="30sp"
+                    android:textColor="@color/green" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/green"
+                    android:text="Half Blood Prince "
+                    android:textSize="30sp"
+                    android:fontFamily="@font/odibee_sans"
+                    android:textColor="@color/green" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/green"
+                    android:text="Apple Cinnamon Whiskey Smash"
+                    android:textSize="30sp"
+                    android:fontFamily="@font/odibee_sans"
+                    android:textColor="@color/green" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1" />
+            </RadioGroup>
+        </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/orderButton"
+                android:layout_width="300dp"
+                android:layout_marginTop="50dp"
+                android:layout_height="100dp"
+                android:src="@drawable/yenibuton2"
+                android:scaleType="fitCenter"
+                android:background="@color/startclor"
+                 />
+
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
